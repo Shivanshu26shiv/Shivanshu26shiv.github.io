@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+   color: #55a0c3;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #55a0c3;
 }
 
 hr.star-primary {
@@ -82,12 +82,18 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    
+    background: url(../img/bg.png);
+    background-size: cover;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+img {
+border-radius: 50%;
 }
 
 header img {
@@ -100,7 +106,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 header .intro-text .skills {
@@ -115,7 +121,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.75em;
     }
 
     header .intro-text .skills {
@@ -181,7 +187,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #2c3e50;
 }
 
 section.success a,
@@ -265,16 +271,17 @@ section.success a.active {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    
     transition: all .3s ease-in-out;
 }
 
+.btn-outline,
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #55a0c3;
     background: #fff;
 }
 
@@ -327,7 +334,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #55a0c3;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -358,6 +365,7 @@ footer .footer-below {
 
 .btn-social {
     display: inline-block;
+    color: #233140;
     width: 50px;
     height: 50px;
     border: 2px solid #fff;
