@@ -1,3 +1,14 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
 .demo{
     background: linear-gradient(to right, #717276,#191919);
 }
